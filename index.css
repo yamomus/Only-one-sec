@@ -1,0 +1,178 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol, ul {
+    list-style: none;
+}
+  
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+  }
+
+body{
+    
+    font-family: 'Goldman', cursive;
+
+}
+
+.all{
+    
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background: url('https://sun9-39.userapi.com/impg/TtFb9hKWW2xLJvu1dSzqvpxOxGfMYuvDbpQj2Q/LSBwDdW7I5A.jpg?size=2560x1707&quality=96&sign=32a5025ebd3651ab9981b8888b58aa9c&type=album');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: beige;    
+}
+
+
+.logo{
+    font-size: 14px;
+    padding-bottom: 260px;
+    height: 50px;
+}
+
+a { 
+    text-decoration: none; /* 0123Отменяем подчеркивание у ссылки */
+    color: #fff;
+    
+   } 
+   
+
+
+.phrase1{
+    padding-top: 300px;
+    font-size: 36px;
+    text-align: center;
+}
+.phrase2{
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+
+
+
+.time{
+    text-align: center;
+    padding-top: 70px;
+    text-align: center;
+    font-size: 60px;
+padding-bottom: 10px;
+    
+    
+}
+
+.clock{
+    text-align: center;
+    padding-top: 70px;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 1500px;
+
+    
+}
+
+
+.problem{
+   
+   
+   text-align: center;
+   line-height: 60px;
+   font-size: 38px;
+
+  
+}
+
+
+
+
+@media screen and (max-width: 1017px){
+
+    .logo{
+        font-size: 24px;
+        padding-bottom: 260px;
+        height: 50px;
+        text-align: center;
+    }
+
+    .start-menu{
+        text-align: center;
+        
+    }
+
+
+
+    .all{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .phrase1{
+        padding-top: 150px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .phrase2{
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 70px;
+    }
+
+    .clock{
+        text-align: center;
+        padding-top: 70px;
+        text-align: center;
+        font-size: 40px;
+}
+
+
+
+
+.time{
+    text-align: center;
+    padding-top: 70px;
+    text-align: center;
+    font-size: 60px;
+padding-bottom: 10px;
+}
+
+
+}
+
+@media screen and (max-width: 400px){
+
+
+    .time{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 70px;
+        text-align: center;
+        font-size: 60px;
+    padding-bottom: 10px;
+    }
+
+}
